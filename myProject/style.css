@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+input:focus{
+    border: 2px solid firebrick;
+}
+
+label{
+    position: absolute;
+    opacity: 0;
+}
+
+#checkDisability{
+    width: 0.1vw;
+    opacity: 0.1; 
+    position: absolute;
+}
+
+li{
+    list-style: none;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+li:hover{
+    box-shadow: 0, 0, 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article{
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
